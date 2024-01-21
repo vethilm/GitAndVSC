@@ -24,19 +24,19 @@ h3{
     font-weight: 400;
 }
 hr{
-    width: 80%;
     margin: 0% 0% 3%;
-    
 }
 p{
     font-family:'Inter',sans-serif;
+    width:94%;
+    margin-left: 3%;
 }
 ::selection {
-    background: #10b439;
+    background: #23D632;
 }
 ::-moz-selection {
-    background: #10b439;
-}u
+    background: #23D632;
+}
 .code{
     background-color: #cecdcd;
     padding: 1px 4px 0px;
@@ -53,13 +53,14 @@ p{
 .header{
     display: block;
     height:50px;
+    margin: 2% 0;
 }
 .siteTitle{
     display: inline;
     background-color: #000000;
     padding: 3px 8px;
     border-radius: 50px;
-    color:#23D632;
+    color:#fff;
 }
 /* navigation */
 
@@ -67,7 +68,8 @@ p{
 /* table of contents */
 .tableOfContents{
     position: absolute;
-    top:25%;
+    top:30%;
+    border: 1px solid green;
 }
 
 .content{
