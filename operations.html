@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repositories</title>
+    <title>Operations</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,16 @@
         
     <div class="tableOfContents">
         <ul>
-           
+                <li>Basic Operations
+                    <ul>
+                        <li>Status</li>
+                        <li>Add</li>
+                        <li>Commit</li>
+                        <li>Push</li>
+                        <li>Pull</li>
+                    </ul>
+                </li>
+                <li>Terminal</li>
         </ul>
     </div>
     <div class="content">
@@ -39,15 +48,23 @@
                     <p>Stages files for your next commit. Files that have been staged will be added to the repository and unstaged files will not.</p>
                     <p>In VS Code, stage files in the Source Control tab by clicking the plus icon (+) next to its name, this will move it to the staged changes group. 
                         The plus icon next to the changes tab will stage all modified files.</p>
-                    <p> <span class="code">git add [file] </span></p>
             <h3>Commit</h3>
                     <p>Captures a snapshot of the project's current staged changes and a message describing the changes made</p>
-                    <p> <span class="code">git commit -m "[message]"</span></p>
+                    <p> To commit your changes in VS Code, enter a message in the box at the top of the Source Control panel and click Commit.</p>
             <h3>Push</h3>
-                    <p>Uploads the commited files from the local repository to the remote repository</p>
+                    <p>Uploads the commited files from the local repository to the remote repository, allowing local changes to be accessed by others.</p>
             <h3>Pull</h3>
-                    <p>Fetches files from the remote repository to the local directory</p>
-            
+                    <p>Fetches files from the remote repository to the local directory.</p>
+            <h2>Using the Terminal</h2>
+            <ul>
+                <ul>
+                    <li>Status : </li>
+                    <li>Add : <span class="code">git add [file] </span> </li>
+                    <li>Commit : <span class="code">git commit -m "[message]"</span></li>
+                    <li>Push : <span class="code">git push</span></li>
+                    <li>Pull :</li>
+                </ul>
+            </ul>
     </div>
 </body>
 <script src="js/script.js"></script>

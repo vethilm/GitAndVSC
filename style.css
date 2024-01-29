@@ -30,6 +30,10 @@ p{
     width:94%;
     margin-left: 3%;
 }
+ul{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;   
+}
 ::selection {
     background: #23D632;
 }
