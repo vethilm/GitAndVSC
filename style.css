@@ -7,7 +7,7 @@ h1{
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 3vw;
+    font-size: 3.2vw;
 }
 h2{
     font-family: 'Inter', sans-serif;
@@ -34,6 +34,13 @@ ul{
     font-family: 'Inter', sans-serif;
     font-weight: 400;   
 }
+a {
+    color: #6b47be;
+}
+
+a:visited {
+    color: #5923d6
+}
 ::selection {
     background: #23D632;
 }
@@ -54,19 +61,59 @@ ul{
 
 /* header format */
 .header{
-    display: block;
+    display: flex;
     height:50px;
-    margin: 2% 0;
+    align-items: center;
 }
 .siteTitle{
-    display: inline;
+    display: flex;
     background-color: #000000;
     padding: 3px 8px;
     border-radius: 50px;
     color:#fff;
+    width: fit-content;
 }
 /* navigation */
+.nav {
+    margin-left: auto;
+}   
 
+.dropdown {
+    display: none;
+    clear: both;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+}
+
+.nav a {
+    float: right;
+    color: black;
+    display: block;
+    border: 1px solid black;
+    padding: 3px 8px;
+    margin: 5% 0;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: right;
+    width: fit-content;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.dropdownActive a {
+    background-color: #000000;
+    color: #fff;
+}
+ 
+.nav:hover .dropdown {
+    display: block;
+}
 
 /* table of contents */
 .tableOfContents{
