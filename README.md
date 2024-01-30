@@ -11,9 +11,9 @@ versatile web developer.
 Please consider this as a milestone deliverable that a potential employer would highly value.
 ## The Outline
 Minimum information required is as follows. Please feel free to extend this as you preferred.
-Setting Up the Environment
-- Install Git and VS Code.
-- Configure Git within VS Code (user name, email).
+- Setting Up the Environment
+  - Install Git and VS Code.
+  - Configure Git within VS Code (user name, email).
 - Creating and Cloning a GitHub Repository
   -   Create a new repository on GitHub.
   -   Clone the repository using VS Code's integrated Git support.
