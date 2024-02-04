@@ -1,6 +1,7 @@
 # GIT Fundamentals
 ## Individual Project – Spring 2024
-### The Mission: Mastering Git Through Practical Application
+<hr>
+## The Mission: Mastering Git Through Practical Application
 In the ever-evolving world of web development, proficiency in version control is not just a skill—it's an essential tool of the
 trade. This project will not only deepen your understanding of Git but also challenge you to document your learning journey.
 You will create a micro-site, using HTML, CSS, and JavaScript (optionally), to showcase what you've learned about Git. This site

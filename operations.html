@@ -42,7 +42,7 @@
     <div class="content">
         
         <a href="repositories.html" class="prev">< Previous </a>
-        <a href="repositories.html" class="next"> Next ></a>
+        <a href="branching.html" class="next"> Next ></a>
         <h2>Basic Operations</h2>
             <h3>Status</h3>
                 <p>Shows altered files in your directory as Modified, Staged, Committed, and Untracked.</p>
@@ -60,7 +60,7 @@
                         The plus icon next to the changes tab will stage all modified files.</p>
             <h3>Commit</h3>
                     <p>Captures a snapshot of the project's current staged changes and a message describing the changes made</p>
-                    <p> To commit your changes in VS Code, enter a message in the box at the top of the Source Control panel and click Commit.</p>
+                    <p> To commit your changes in VS Code, enter a message in the box at the top of the Source Control panel and click Commit. Make sure you save changes to the file, any unsaved changes will not be commited.</p>
             <h3>Push</h3>
                     <p>Uploads the commited files from the local repository to the remote repository, allowing local changes to be accessed by others.</p>
             <h3>Pull</h3>
@@ -68,11 +68,11 @@
             <h2>Using the Terminal</h2>
             <ul>
                 <ul>
-                    <li>Status : </li>
+                    <li>Status : <span class="code">git status</span></li>
                     <li>Add : <span class="code">git add [file] </span> </li>
                     <li>Commit : <span class="code">git commit -m "[message]"</span></li>
                     <li>Push : <span class="code">git push</span></li>
-                    <li>Pull :</li>
+                    <li>Pull : <span class="code">git pull</span></li>
                 </ul>
             </ul>
     </div>
