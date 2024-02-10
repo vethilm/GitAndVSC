@@ -29,19 +29,51 @@
     </div>
     <div class="content">
         <h1>Branching</h1>
-          <a href="repositories.html" class="prev">< Previous </a>
-            <a href="repositories.html" class="next"> Home ></a>
+        <hr> 
         <p>A branch is a version of a repository that is saved parallel to the main version. 
-            This allows you to work without impacting the main branch and is often used to develop new features or to fix bugs. 
-            Branches can be merged to add changes from one branch to another. </p>
+            This allows you to work without impacting the main branch, sometimes called master branch, and is often used to develop new features or to fix bugs. 
+            Branches can be merged to add changes from one branch to another. 
+        </p>
         <h3>Creating a branch</h3>
            <p>In VS Code, you can create a branch through the Source Control Panel ( <img class="icon" src="img/sourceControlIcon.png" alt="Source Control Icon"> ). Click
-            the 3 dots in the top right and select <b>Branch</b>, then <b>Create Branch</b>. It will then prompt you for a branch name, where name it whatever you want.</p> 
-        <h3>Merging Branches</h3>
+            the 3 dots in the top right and select <b>Branch</b>, then <b>Create Branch</b>. 
+            It will then prompt you for a branch name, where you can name it whatever you want.</p> 
+            <div class="imgContainer"><img class="fullImg" src="img/vsBranch.png"></div>
+            <p>To create a branch using the terminal, run the command 
+                <span class="code"> git branch [branch name]</span>. You can then use 
+                <span class="code">git checkout [branch name]</span> to switch to the branch.
+                Alternatively, you can run the shorthand <span class="code"> git checkout -b [branch name]</span>
+                 to create and swich to a new branch in the same line
+            </p>
             
+            <h3>Merging Branches</h3>
+            <p> When you complete your work in a branch you can merge it back to your main branch. The proccess to merge a branch 
+                in VS Code is similar to creating one, access the Source Control Panel ( <img class="icon" src="img/sourceControlIcon.png" alt="Source Control Icon"> ),
+                click the 3 dots in the top right and select <b>Branch</b>, then <b>Merge</b>. 
+                Then, enter or select the name of the branch you want to merge to.
+            </p>
+            <p> If you both branches have the same file with different contents, say you altered a file in your branch that was left 
+                unchanged in the main, you can not merge branches until these conficts have been fixed. To resolve the confict, you need to 
+                choose one version or the other or manually change the files to match. In VS Code, you can resolve conflicts through the command palette,
+                which can be accessed by selecting <b>View</b> then <b>Command Palette</b> in the navigation bar or through the shortcut <b>Control Shift P</b>.
+                Searching "merge" will pull up all the options available for merging branches, including options to accept one or the other and view conflicts.
+            </p>
+        <hr>
         <h2>Pull Requests</h2> 
-        <p>Pull requests are user submitted changes that can be accepted or rejected by the repository's collaborators</p>
-        <h3>Code Reviews</h3>
+            <p>Pull requests are user submitted changes that can be accepted or rejected by the repository's collaborators. 
+                In VS Code, you can access pull request options from the command palette by searching for "pull request". 
+                On GitHub, requests can be made by navigating to the <b>Pull requests</b> tab and clicking <b>New pull request</b>. 
+                Once you select the branch you want to merge to and the branch you want to pull from, it will diplay any changes that have been made the branch and if there are any conflicts
+            </p>
+            <div class="imgContainer"><img src="img/pullReq.png" class="fullImg"></div>
+            <p>Submitting the pull request will share it with the collaborators, who can then review it and choose to merge the branches or not. The pull request can then be closed.
+                If the request was merged, the request will automatically close and you have the option to delete the merged branch or even create a new request to revert the previous pul request. If the request was closed with out merging, you still have
+                the ability to open it again.
+            </p>
+        <hr>
+         <a href="repositories.html" class="prev">< Previous </a>
+        <a href="repositories.html" class="next"> Home ></a>
+        <hr>
     </div>
 </body>
 <script src="js/script.js"></script>

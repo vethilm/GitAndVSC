@@ -3,6 +3,12 @@
 /* *{
     border:1px solid black;;
 } */
+::root{
+    --bk-color:#fff;
+    --text-color:#000;
+    --primary-color:#12ACC4;
+}
+
 h1{
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -136,7 +142,6 @@ a:visited {
     padding:10px;
 }
 .imgContainer{
-    background-color: #cdd0d0;
     padding: 10px;
 }
 .fullImg{
@@ -155,5 +160,9 @@ a:visited {
         width: 100%;
         margin:0 0;
         padding:2px;
+    }
+    .fullImg{
+        width: 100%;
+        margin: auto;
     }
 }

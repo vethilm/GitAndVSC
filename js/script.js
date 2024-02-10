@@ -7,6 +7,3 @@ function mobileNav() {
         x.style.display = "block";
     }
 }
-function navIcon(x) {
-    x.classList.toggle("fa-minus-circle");
-}
