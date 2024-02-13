@@ -83,6 +83,49 @@ a:visited {
     width: fit-content;
     text-decoration: none;
 }
+/* index */
+.menuSection {
+    float: left;
+    width: 50%;
+}
+
+.article {
+    float: left;
+    width: 90%;
+    height: 250px;
+    padding: 2%;
+    margin: 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+.homeTitle {
+    color: white;
+    margin-top: 20%;
+}
+.blur {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rbga(255, 255, 255, 0.2);
+    height: 100%;
+    width: 100%;
+    border: 2px solid white;
+}
+.set {
+    background-image: url('img/bk/bk1.jpg');
+}
+
+.repo {
+    background-image: url('img/bk/rep.png');
+}
+
+.op {
+    background-image: url('img/bk/op.jpg');
+}
+
+.branch {
+    background-image: url('img/bk/branch.jpg');
+}
 /* navigation */
 .nav {
     position: absolute;
